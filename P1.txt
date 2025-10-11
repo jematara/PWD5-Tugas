@@ -1,3 +1,0 @@
-Nama	: Jasmine
-NPM	: 5520124077
-Kelas	: IF C
