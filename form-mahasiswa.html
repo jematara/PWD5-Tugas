@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Form Mahasiswa</title>
+	<style>
+	fieldset {
+            	width: 800px;
+            	padding: 10px;
+        }
+        label {
+            	display: inline-block;
+            	width: 200px;
+            	vertical-align: top;
+        }
+	</style>
+</head>
+<body>
+	<h1>Form Mahasiswa</h1>
+	<form>
+		<fieldset>
+			<legend>Data Mahasiswa</legend>
+			<div>
+				<label>Nama : </label>
+				<input type="text" required="">
+			</div>
+			<br>
+			<div>
+				<label>NPM : </label>
+				<input type="text" required="">
+			</div>
+			<br>
+			<div>
+				<label>Kelas : </label>
+				<select required="">
+					<option>-</option>
+					<option>IF A</option>
+					<option>IF B</option>
+					<option>IF C</option>
+					<option>IF D</option>
+					<option>IF NR</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Jenis Kelamin : </label>
+				<input type="radio">Pria
+				<input type="radio">Wanita
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Tempat Tinggal Mahasiswa</legend>
+			<div>
+				<label>Alamat : </label>
+				<textarea rows="5" col="17"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Kecamatan : </label>
+				<input type="text" required="">
+			</div>
+			<br>
+			<div>
+				<label>Kabupaten/Kotamadya : </label>
+				<input type="text" required="">
+			</div>
+			<br>
+			<div>
+				<label>Provinsi : </label>
+				<input type="text" required="">
+			</div>
+			<br>
+			<div>
+				<label>Kode Pos : </label>
+				<input type="text" required="">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Lain-lainnya</legend>
+			<div>
+            			<label>Bahasa Pemrograman    : </label>
+				<input type="checkbox">C/C++
+				<input type="checkbox">Go Lang
+				<input type="checkbox">Python
+				<input type="checkbox">Lainnya
+				<br>
+				<label></label>
+				<input type="checkbox">PHP
+				<input type="checkbox">Javascript
+				<input type="checkbox">Ruby
+			</div>
+			<br>
+			<div>
+            			<label>Kegiatan    : </label>
+				<input type="checkbox">Organisasi Kemahasiswaan
+				<input type="checkbox">Bidang Olahraga
+				<input type="checkbox">Lainnya
+				<br>
+				<label></label>
+				<input type="checkbox">Organisasi Luar Kampus
+				<input type="checkbox">Bidang Seni
+			</div>
+		</fieldset>
+		<br>
+		<div>
+			<input type="reset">
+			<input type="submit">
+		</div>
+		<br>
+	</form>
+</body>
+</html>
