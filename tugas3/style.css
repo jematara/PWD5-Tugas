@@ -480,14 +480,25 @@ article form div.teks input {
     border-radius: 5px;
 }
 
+article form div.teks-2 input {
+    border: none;
+    font-size: 15px;
+    width: 150px;
+    letter-spacing: 0;
+    color: #1a1a1a;
+    background-color: lightsteelblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 article form div input:focus {
     outline: none;
 }
 
 article form div input::placeholder {
     letter-spacing: 0px;
-    font-size: 17px;
-    color: black;
+    font-size: 13px;
+    color: steelblue;
 }
 
 article form div input[type=radio] {
